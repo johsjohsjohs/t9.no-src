@@ -55,7 +55,10 @@ li, ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
-    
+
+}
+.u-email {
+    display: none;
 }
 .site-title {
     display: none;
