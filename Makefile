@@ -65,7 +65,6 @@ blog/index.html: $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuffix .htm
 	mkdir -p blog
 	cp /home/johs/t9.no/data/style.css blog/
 	cp /home/johs/t9.no/data/pix/* blog/
-	cd /home/johs/t9.no/blog ; git add . ; git commit -am "$(date)" ; git push origin master
 	TITLE="$(BLOG_TITLE)"; \
 	export TITLE; \
 	envsubst < templates/header.html > $@; \
