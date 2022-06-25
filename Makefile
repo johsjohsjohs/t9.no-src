@@ -66,7 +66,7 @@ blog/index.html: $(ARTICLES) $(TAGFILES) $(addprefix templates/,$(addsuffix .htm
 	cp /home/johs/t9.no/data/style.css blog/
 	cp /home/johs/t9.no/data/pix/* blog/
 	cp /home/johs/t9.no/data/pgp.asc blog/
-
+	cp /home/johs/t9.no/data/uses.html blog/
 	TITLE="$(BLOG_TITLE)"; \
 	export TITLE; \
 	envsubst < templates/header.html > $@; \

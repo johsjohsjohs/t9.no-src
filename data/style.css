@@ -10,6 +10,12 @@ h1 {
     margin-top: 10px;
     margin-bottom: 40px;
 }
+h2, h3, h4, h5 {
+    color: white;
+}
+dl, dt, dd {
+    color: white;
+}
 .h-card p {
     display:inline
 }
