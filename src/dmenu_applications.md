@@ -21,3 +21,4 @@ gtk-launch "$(echo ${HASHMAP[$SELECTION]} | sed 's/\/usr\/share\/applications\//
 exit
 ```
 if you want it be like dmenu_run than just remove "-l 15" from the script.
+;tags: english
